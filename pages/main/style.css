@@ -84,7 +84,7 @@ body {
 .watch_section {
   width: 1600px;
   height: 780px;
-  background-image: url("/assets/images/Giant\ Panda.png");
+  background-image: url("../../assets/images/Giant\ Panda.png");
   position: relative;
   top: 0px;
 }
