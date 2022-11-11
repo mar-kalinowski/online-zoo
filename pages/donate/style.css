@@ -295,6 +295,7 @@ body {
   width: 915px;
   height: 30px;
   border: none;
+  padding: 0;
 }
 
 .radio-button_amount {
@@ -302,13 +303,108 @@ body {
 }
 
 .donate_content_form_radio-btn {
+  position: relative;
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
+  justify-items: flex-start;
   align-items: center;
   flex-direction: column;
   width: auto;
   height: 50px;
-  margin-top: 44px;
+  margin-top: 80px;
+}
+
+/* .donate_content_form_radio-btn:hover input ~ .form-fieldset_radio {
+  background: #fe9013;
+} */
+
+.donate_content_form_radio-btn_amount {
+  display: flex;
+  position: absolute;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate_content_form_radio-btn_amount span {
+  font-size: 20px;
+  color: #333b41;
+  align-self: flex-end;
+  margin-bottom: 3px;
+}
+
+.donate_content_form_radio-btn_amount p {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 140%;
+  color: #333b41;
+}
+
+.donate_content_form_radio-btn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.donate_content_form_radio-btn:hover input ~ .form-fieldset_radio {
+  background: #fe9013;
+}
+
+.donate_content_form_radio-btn input:checked ~ .form-fieldset_radio {
+  background: #fe9013;
+}
+
+.form-fieldset_radio {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ffee2e;
+  border: none;
+  border-radius: 50%;
+  margin-top: -20px;
+}
+
+.orange-circles {
+  position: relative;
+  visibility: hidden;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.orange-circle {
+  position: absolute;
+  left: -13px;
+  top: -13px;
+  background: transparent;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  outline: 2px solid #f9804b;
+}
+
+.orange-circle2 {
+  position: absolute;
+  left: -8px;
+  top: -8px;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  outline: 2px solid #f9804b;
+}
+
+.donate_content_form_radio-btn input:checked .orange-circles:after {
+  display: block;
+  position: absolute;
+  visibility: visible;
+  width: 20px;
+  height: 20px;
 }
 
 .donate_content_form_1 {
@@ -322,7 +418,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .donate_content_another-amount input {
@@ -331,7 +427,7 @@ body {
   background: rgba(255, 255, 255, 0.52);
   backdrop-filter: blur(2px);
   border: 1px solid #72828e;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .dollar_sign {
@@ -339,6 +435,7 @@ body {
   width: 10px;
   height: 20px;
   right: 20px;
+  color: #72828e;
 }
 
 /* .donate_content_another-amount input.active {
