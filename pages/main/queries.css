@@ -1,0 +1,452 @@
+@media (max-width: 1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .wrapper {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .header {
+    display: flex;
+    align-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 52px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin-left: 30px;
+  }
+
+  .logo_content {
+    position: relative;
+    text-decoration: none;
+  }
+
+  .logo_content_bamboo {
+    background-image: url("../../assets/icons/bamboo.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 10.03px;
+    height: 20.98px;
+    left: 11.23px;
+    top: 26.64px;
+  }
+
+  .logo_content h1 {
+    display: flex;
+    font-size: 19.01px;
+    font-weight: 400;
+    line-height: 120%;
+    justify-self: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 3.55px 4.75px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    list-style: none;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav li {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav a {
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+
+  .nav a.active {
+    color: #f9804b;
+  }
+
+  .nav a:hover {
+    color: #f9804b;
+  }
+
+  .nav ul:active .active:not(:active) {
+    color: #ffffff;
+  }
+
+  .designed_by {
+    display: flex;
+    justify-self: flex-end;
+    margin-left: 259px;
+    padding: 0;
+  }
+
+  .designed_by a:link {
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .designed_by a:hover {
+    color: #f9804b;
+  }
+
+  .watch_section {
+    display: flex;
+    position: relative;
+    width: 1000px;
+    overflow: hidden;
+    height: 584px;
+    background-image: url("../../assets/images/Giant\ Panda_small.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: -69px;
+    left: 0px;
+    z-index: -1;
+    margin: 0;
+  }
+
+  .circle {
+    position: absolute;
+    width: 367px;
+    height: 367px;
+    background-color: #f9804b;
+    border-radius: 50%;
+    top: 60px;
+    right: 177px;
+    z-index: 1;
+    margin-right: 20px;
+  }
+
+  .circle_text {
+    position: absolute;
+    width: 400.25px;
+    height: 320px;
+    top: 53.8px;
+    right: 85.75;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .circle_text_favorite {
+    color: #ffee2e;
+  }
+
+  .watch_section_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 140%;
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: calc(35%);
+    top: 403px;
+    background: #f9804b;
+    border-radius: 25px;
+  }
+
+  .watch_section_button:hover {
+    background: #e47209;
+  }
+
+  .backstage_container {
+    width: 1000px;
+    height: 427px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .backstage_section {
+    width: 940px;
+    height: 427px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .backstage_section_img {
+    display: none;
+  }
+
+  .backstage_section_img_small {
+    display: flex;
+    width: 455px;
+    height: 408px;
+    backdrop-filter: blur(2px);
+    padding: 0;
+    margin: 0;
+  }
+
+  .backstage_section_article {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 454px;
+    height: 427px;
+    padding: 0;
+  }
+
+  .backstage_container_flower {
+    display: none;
+  }
+
+  .pets_section_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+    padding: 0;
+    margin-top: 142px;
+  }
+
+  .pets_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 760px;
+  }
+
+  /* .pets_section_cards {
+    display: flex;
+    width: 940px;
+    flex-wrap: wrap;
+    gap: 29px;
+    justify-content: space-between;
+  } */
+
+  .pets_section_cards {
+    display: grid;
+    grid-template-columns: 294px 295px 294px;
+    width: 940px;
+    height: 760px;
+  }
+
+  .pets_section_card {
+    display: flex;
+    flex-direction: column;
+    width: 294px;
+    height: 354px;
+    border: 1px solid #fa6f32;
+    border-radius: 5px;
+  }
+
+  .pets_section_arrow_left {
+    position: absolute;
+    bottom: 180px;
+    transform: translate(-100px);
+  }
+
+  .pets_section_arrow_right {
+    position: absolute;
+    bottom: 180px;
+    transform: translate(100px);
+  }
+
+  .pets_section_container_palm {
+    background-image: url("../../assets/images/palm_foto_small.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 193px;
+    height: 202px;
+    left: 0;
+    bottom: 0;
+  }
+
+  .pets_section_container_strelitzia {
+    background-image: url("../../assets/images/strelitzia\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 248px;
+    height: 180px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .pets_section_card_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 140%;
+    width: 298px;
+    height: 54px;
+    background: #f9804b;
+    border-radius: 25px;
+    margin-top: 80px;
+  }
+
+  .pick_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 876px;
+    background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    );
+    opacity: 0.9;
+    margin: 0 auto;
+  }
+
+  .pick_section_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 940px;
+    height: 796px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pick_section_content_upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 843px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .testimonials_section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 1000px;
+    background: #ffffff;
+  }
+
+  .testimonials_content {
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+  }
+
+  .testimonials_content_boxes {
+    display: flex;
+    width: 940px;
+    gap: 30px;
+  }
+
+  .testimonials_content_box {
+    display: flex;
+    width: 293px;
+  }
+
+  .testimonials_content_box:last-child {
+    display: none;
+  }
+
+  .testimonials_section_leaf {
+    position: absolute;
+    background-image: url("../../assets/images/leav_foto.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 239.98px;
+    height: 235.62px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .testimonials_button {
+    margin-left: 30px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #000000;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .footer_upper_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 939px;
+    height: fit-content;
+    margin-top: 41px;
+    margin-bottom: 36px;
+  }
+
+  .footer_lower_content {
+    display: flex;
+    width: 939px;
+  }
+}
