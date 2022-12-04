@@ -252,3 +252,6 @@
     width: 939px;
   }
 }
+
+@media (max-width: 640px) {
+}

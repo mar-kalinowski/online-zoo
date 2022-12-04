@@ -276,6 +276,8 @@
   .pets_section_cards {
     display: grid;
     grid-template-columns: 294px 295px 294px;
+    grid-template-rows: 354px 354px;
+    row-gap: 92px;
     width: 940px;
     height: 760px;
   }
@@ -291,13 +293,13 @@
 
   .pets_section_arrow_left {
     position: absolute;
-    bottom: 180px;
+    bottom: 580px;
     transform: translate(-100px);
   }
 
   .pets_section_arrow_right {
     position: absolute;
-    bottom: 180px;
+    bottom: 580px;
     transform: translate(100px);
   }
 
@@ -449,4 +451,7 @@
     display: flex;
     width: 939px;
   }
+}
+
+@media (max-width: 640px) {
 }
