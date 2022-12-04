@@ -379,6 +379,14 @@
     padding: 0;
   }
 
+  .pick_section_content_lower_green-arrow_left {
+    display: none;
+  }
+
+  .pick_section_content_lower_green-arrow_right {
+    display: none;
+  }
+
   .testimonials_section {
     position: relative;
     display: flex;
