@@ -515,7 +515,6 @@
     background-image: url("../../assets/images/Giant\ Panda_tablet.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    position: relative;
     top: -44px;
     left: 0px;
     z-index: -1;
@@ -529,7 +528,7 @@
 
   .circle_text {
     width: 255.64px;
-    height: 2014.38px;
+    height: 204.38px;
     font-size: 54.29px;
     top: 32px;
     left: 25px;
@@ -607,15 +606,15 @@
     bottom: 600px;
   }
 
+  .pets_section_arrow_right {
+    position: absolute;
+    bottom: 600px;
+  }
+
   .pick_section_content_lower_green-arrow_left {
     position: absolute;
     right: 152px;
     top: -16px;
-  }
-
-  .pets_section_arrow_right {
-    position: absolute;
-    bottom: 600px;
   }
 
   .pick_section_content_lower_green-arrow_right {
@@ -763,5 +762,271 @@
   .footer_lower_content_nav {
     width: 300px;
     margin: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .watch_section {
+    display: flex;
+    position: relative;
+    width: 320px;
+    overflow: hidden;
+    height: 187px;
+    background-image: url("../../assets/images/Giant\ Panda_mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 0px;
+    z-index: -1;
+    margin: 0;
+  }
+
+  .circle {
+    width: 119px;
+    height: 119px;
+  }
+
+  .circle_text {
+    width: 128px;
+    height: 102px;
+    font-size: 28px;
+    top: 32px;
+    left: 25px;
+  }
+
+  .watch_section_button {
+    position: absolute;
+    left: 11px;
+    top: 220px;
+  }
+
+  .backstage_container {
+    width: 320px;
+    height: 567px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .backstage_section {
+    width: 320px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .backstage_section_article {
+    width: 300px;
+    height: 367px;
+    margin-left: 20px;
+    padding: 0;
+  }
+
+  .backstage_container_flower {
+    display: flex;
+    position: absolute;
+    width: 35px;
+    height: 225px;
+    background-image: url("../../assets/images/flower_foto1_mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .pets_section_container {
+    width: 320px;
+    margin: 0;
+  }
+
+  .pets_section {
+    width: 320px;
+  }
+
+  .pets_section_cards {
+    display: grid;
+    grid-template-columns: 285px;
+    grid-template-rows: 332px 332px 332px 332px;
+    row-gap: 20px;
+    width: 300px;
+    height: auto;
+  }
+
+  .pets_section_arrow_left {
+    display: none;
+  }
+
+  .pets_section_arrow_right {
+    display: none;
+  }
+
+  .pick_section {
+    width: 320px;
+  }
+
+  .pick_section_content {
+    width: 320px;
+  }
+
+  .pick_section_content_upper {
+    width: 300px;
+  }
+
+  .pick_section_content_upper h2 {
+    font-size: 24px;
+    width: 232px;
+  }
+
+  .pick_section_content_upper h3 {
+    font-size: 18px;
+    width: 232px;
+  }
+
+  .pick_section_content_upper h4 {
+    display: none;
+  }
+
+  .pick_section_content_upper p {
+    display: none;
+  }
+
+  .pick_section_content_lower {
+    width: 320px;
+    height: 1000px;
+  }
+
+  .pick_section_content_lower_boxes {
+    position: relative;
+    display: grid;
+    grid-template-columns: 168px;
+    grid-template-rows: 168px 54px 168px 54px 168px 54px;
+    row-gap: 20px;
+    width: 300px;
+    height: 1000px;
+  }
+
+  .pick_section_content_lower_text {
+    display: none;
+  }
+
+  .testimonials_section {
+    width: 320px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .testimonials_content {
+    width: 320px;
+  }
+
+  .testimonials_content_boxes {
+    display: grid;
+    grid-template-columns: 299px;
+    grid-template-rows: 109px 109px 109px;
+    row-gap: 15px;
+    width: 299px;
+  }
+
+  .testimonials_content_box {
+    display: flex;
+    flex-direction: column;
+    width: 299px;
+    height: 109px;
+  }
+
+  .testimonials_content_box_text {
+    width: 252px;
+    height: 38px;
+    margin: 10px 15px 10px 18px;
+  }
+
+  .testimonials_section_leaf {
+    position: absolute;
+    background-image: url("../../assets/images/leav_foto_mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 51px;
+    height: 94px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 320px;
+    height: 334px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer_logo {
+    width: 138px;
+    height: 23px;
+  }
+
+  .logo_content_bamboo {
+    position: absolute;
+    left: 77px;
+    top: 0px;
+    width: 12px;
+    height: 22px;
+  }
+
+  .footer_logo h1 {
+    font-size: 19px;
+    line-height: 120%;
+  }
+
+  .footer_upper_content {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-top: 13px;
+    padding-bottom: 50px;
+  }
+
+  .footer_middle_content {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+  }
+
+  .footer_lower_content {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: center;
+  }
+
+  .footer_lower_content_social {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    right: 60px;
+    top: 70px;
+  }
+
+  .footer_lower_content p {
+    margin-right: 20px;
+    width: 230px;
+    font-size: 15px;
+  }
+
+  .footer_lower_content_nav {
+    display: flex;
+    width: 280px;
+    margin-right: 15px;
   }
 }
