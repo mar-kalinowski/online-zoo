@@ -237,7 +237,7 @@
   .backstage_section_article {
     display: flex;
     flex-direction: column;
-    flex: 0 0 454px;
+    width: 454px;
     height: 427px;
     padding: 0;
   }
@@ -379,6 +379,14 @@
     padding: 0;
   }
 
+  .pick_section_content_lower_green-arrow_left {
+    display: none;
+  }
+
+  .pick_section_content_lower_green-arrow_right {
+    display: none;
+  }
+
   .testimonials_section {
     position: relative;
     display: flex;
@@ -454,4 +462,306 @@
 }
 
 @media (max-width: 640px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    width: 640px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .header {
+    height: 34px;
+  }
+
+  .logo {
+    width: 46.93px;
+    height: 29.03px;
+    border: none;
+  }
+
+  .logo_content_bamboo {
+    width: 4.54px;
+    height: 13.56px;
+    top: 20px;
+  }
+
+  .logo_content h1 {
+    font-size: 12.3px;
+    line-height: 120%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .designed_by {
+    display: none;
+  }
+
+  .watch_section {
+    display: flex;
+    position: relative;
+    width: 640px;
+    overflow: hidden;
+    height: 373px;
+    background-image: url("../../assets/images/Giant\ Panda_tablet.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: -44px;
+    left: 0px;
+    z-index: -1;
+    margin: 0;
+  }
+
+  .circle {
+    width: 237.6px;
+    height: 237.6px;
+  }
+
+  .circle_text {
+    width: 255.64px;
+    height: 2014.38px;
+    font-size: 54.29px;
+    top: 32px;
+    left: 25px;
+  }
+
+  .watch_section_button {
+    position: absolute;
+    left: -300px;
+    top: 220px;
+  }
+
+  .backstage_container {
+    width: 640px;
+    height: 567px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .backstage_section {
+    width: 640px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .backstage_section_img_small {
+    display: none;
+  }
+
+  .backstage_section_article {
+    width: 495px;
+    height: 367px;
+    margin-left: 20px;
+    padding: 0;
+  }
+
+  .backstage_container_flower {
+    display: flex;
+    position: absolute;
+    width: 132px;
+    height: 484px;
+    background-image: url("../../assets/images/flower_foto1_tablet.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .pets_section_container {
+    width: 640px;
+    margin: 0;
+  }
+
+  .pets_section {
+    width: 640px;
+  }
+
+  .pets_section_cards {
+    display: grid;
+    grid-template-columns: 285px 285px;
+    grid-template-rows: 332px 332px;
+    column-gap: 30;
+    row-gap: 92px;
+    width: 600px;
+    height: auto;
+  }
+
+  .card_5 {
+    display: none;
+  }
+
+  .card_6 {
+    display: none;
+  }
+
+  .pets_section_arrow_left {
+    position: absolute;
+    bottom: 600px;
+  }
+
+  .pick_section_content_lower_green-arrow_left {
+    position: absolute;
+    right: 152px;
+    top: -16px;
+  }
+
+  .pets_section_arrow_right {
+    position: absolute;
+    bottom: 600px;
+  }
+
+  .pick_section_content_lower_green-arrow_right {
+    position: absolute;
+    left: 143px;
+    top: -16px;
+  }
+
+  .pick_section {
+    width: 640px;
+  }
+
+  .pick_section_content {
+    width: 640px;
+  }
+
+  .pick_section_content_upper {
+    width: 600px;
+  }
+
+  .pick_section_content_upper p {
+    margin: 0;
+  }
+
+  .pick_section_content_lower_boxes {
+    position: relative;
+    display: grid;
+    grid-template-columns: 168px 168px 168px;
+    grid-template-rows: 168px 46px;
+    column-gap: 42px;
+    row-gap: 30px;
+    width: 600px;
+  }
+
+  /* .pick_section_content_lower_boxes::after {
+    background-image: url("../../assets/images/arrow_tablet.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 63px;
+    height: 69px;
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+  } */
+
+  .pick_section_content_lower_text {
+    width: 600px;
+  }
+
+  .pick_section_content_lower_arrow {
+    display: none;
+  }
+
+  .testimonials_section {
+    width: 640px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .testimonials_content {
+    width: 640px;
+  }
+
+  .testimonials_content_boxes {
+    display: grid;
+    grid-template-columns: 600px;
+    grid-template-rows: 109px 109px 109px;
+    width: 600px;
+  }
+
+  .testimonials_content_box {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 109px;
+  }
+
+  .testimonials_content_box_text {
+    width: 553px;
+    height: 38px;
+    margin: 10px 15px 10px 18px;
+  }
+
+  .testimonials_content_scroll-line {
+    display: none;
+  }
+
+  .testimonials_button {
+    display: flex;
+    align-self: center;
+    width: 240px;
+  }
+
+  .testimonials_section_leaf {
+    position: absolute;
+    background-image: url("../../assets/images/leav_foto.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 147px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .footer {
+    width: 640px;
+    height: 282px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer_upper_content {
+    width: 600px;
+    margin-top: 13px;
+  }
+
+  .footer_upper_content_subscribe {
+    display: none;
+  }
+
+  .footer_lower_content {
+    width: 600px;
+    justify-items: flex-start;
+    margin: 0;
+  }
+
+  .footer_lower_content_social_logo_text {
+    display: none;
+  }
+
+  .footer_lower_content_social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer_lower_content_nav {
+    width: 300px;
+    margin: 0;
+  }
 }
