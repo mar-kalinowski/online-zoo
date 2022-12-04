@@ -254,4 +254,157 @@
 }
 
 @media (max-width: 640px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    width: 640px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 640px;
+    height: 34px;
+  }
+
+  .logo {
+    width: 46.93px;
+    height: 29.03px;
+    border: none;
+  }
+
+  .logo_content_bamboo {
+    width: 4.54px;
+    height: 13.56px;
+    top: 20px;
+  }
+
+  .logo_content h1 {
+    font-size: 12.3px;
+    line-height: 120%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .designed_by {
+    display: none;
+  }
+
+  .panda_section {
+    background-image: url("../../assets/images/panda_bg_tablet.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 640px;
+    height: 335px;
+  }
+
+  .donate_container {
+    width: 640px;
+    height: 1333px;
+  }
+
+  .donate_head {
+    width: 600px;
+  }
+
+  .donate_head h3 {
+    width: 600px;
+    font-size: 24px;
+  }
+
+  .donate_content_box {
+    width: 600px;
+    height: 918px;
+  }
+
+  .donate_content_box p {
+    text-align: center;
+  }
+
+  .donate_content_box h5 {
+    margin-left: 10px;
+  }
+
+  .donate_content_panda-icon {
+    width: 532px;
+    height: 246px;
+  }
+
+  .donate_content_form {
+    width: 600px;
+  }
+
+  .donate_content_form_line {
+    width: 524px;
+    height: 2px;
+  }
+
+  .label_5000 {
+    display: none;
+  }
+
+  .label_2000 {
+    display: none;
+  }
+
+  .label_1000 {
+    display: none;
+  }
+
+  .donate_content_another-amount input {
+    width: 180px;
+    height: 42px;
+  }
+
+  .footer {
+    width: 640px;
+    height: 282px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer_upper_content {
+    width: 600px;
+    margin-top: 13px;
+  }
+
+  .footer_upper_content_subscribe {
+    display: none;
+  }
+
+  .footer_lower_content {
+    width: 600px;
+    justify-items: flex-start;
+    margin: 0;
+  }
+
+  .footer_lower_content_social_logo_text {
+    display: none;
+  }
+
+  .footer_lower_content_social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer_lower_content_nav {
+    width: 300px;
+    margin: 0;
+  }
 }
