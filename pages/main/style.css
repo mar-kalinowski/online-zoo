@@ -522,6 +522,14 @@ body {
   align-self: center;
 }
 
+.pick_section_content_lower_green-arrow_left {
+  display: none;
+}
+
+.pick_section_content_lower_green-arrow_right {
+  display: none;
+}
+
 .pick_section_button {
   display: flex;
   justify-content: center;
