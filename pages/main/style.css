@@ -79,25 +79,20 @@ body {
   padding: 29px;
 }
 
-.nav a {
+.nav a:link,
+.nav a:visited {
   justify-items: flex-end;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+  transition: all 0.3s;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a:active {
   color: #f9804b;
-}
-
-.nav a.active {
-  color: #f9804b;
-}
-
-.nav ul:active .active:not(:active) {
-  color: #ffffff;
 }
 
 .designed_by {
@@ -278,6 +273,17 @@ body {
   border: 1px solid #fa6f32;
   border-radius: 5px;
   margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.pets_section_card_img {
+  transition: all 0.4s;
+}
+
+.pets_section_card_img:hover {
+  transform: scale(1.1);
+  /* border: 1px solid #fa6f32;
+  border-radius: 5px; */
 }
 
 .pets_section_card_text {
