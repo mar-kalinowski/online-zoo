@@ -18,9 +18,9 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="logo">
-                <a class="logo_content" href="#">
-                    <div class="logo_content_bamboo"></div>
+            <div class="logo mobile-logo">
+                <a class="logo_content mobile-logo-content" href="#">
+                    <div class="logo_content_bamboo mobile-logo-content-bamboo"></div>
                     <h1>PetStory online</h1>
                 </a>
             </div>
@@ -41,13 +41,18 @@
                     <li>
                         <a href="#">Contact us</a>
                     </li>
+                    <li class="designed_by">
+                        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+                            target="_blank">Designed
+                            by
+                            &copy</a>
+                    </li>
                 </ul>
             </nav>
-            <div class="designed_by">
-                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed
-                    by
-                    &copy</a>
-            </div>
+            <button class="btn-mobile-nav">
+                <img class="icon-mobile-nav open-mobile-nav" src="../../assets/icons/burger_menu.png" alt="Menu icon">
+                <img class="icon-mobile-nav close-mobile-nav" src="../../assets/icons/active_menu.png" alt="Close icon">
+            </button>
         </header>
         <main class="main">
             <section class="watch_section">
@@ -80,7 +85,7 @@
             </section>
             <section class="pets_section_container">
                 <div class="pets_section">
-                    <a href="" class="pets_section_arrow_left">
+                    <a class="pets_section_arrow_left">
                         <img class="arrow" src="../../assets/icons/arrow_left.png" alt="Move backward">
                     </a>
                     <div class="pets_section_cards">
@@ -150,8 +155,8 @@
                             </div>
                         </div>
                     </div>
-                    <a href="" class="pets_section_arrow_right">
-                        <img class="arrow" src="../../assets/icons/arrow_right.png" alt="Move backward">
+                    <a class="pets_section_arrow_right">
+                        <img class="arrow" src="../../assets/icons/arrow_right.png" alt="Move forward">
                     </a>
                 </div>
                 <a class="pets_section_card_button" href="#">choose your favorite</a>
@@ -421,6 +426,7 @@
         </footer>
     </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
