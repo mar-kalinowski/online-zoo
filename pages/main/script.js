@@ -1,18 +1,3 @@
-const btnRight = document.querySelector(".pets_section_arrow_right");
-const btnLeft = document.querySelector(".pets_section_arrow_left");
-
-btnRight.addEventListener("click", function (e) {
-  const petsSection = document.querySelector(".pets_section");
-  petsSection.scrollLeft += 300;
-  console.log(e.target);
-});
-
-btnLeft.addEventListener("click", function (e) {
-  const petsSection = document.querySelector(".pets_section");
-  petsSection.scrollLeft -= 300;
-  console.log(e.target);
-});
-
 // Make mobile navigation work
 
 const btnMobile = document.querySelector(".btn-mobile-nav");
@@ -20,4 +5,24 @@ const headerMobile = document.querySelector(".header");
 
 btnMobile.addEventListener("click", function () {
   headerMobile.classList.toggle("mobile-header");
+});
+
+// Make random corousel
+
+const btnRightSlider = document.querySelector(".pets_section_arrow_right");
+const btnLeftSlider = document.querySelector(".pets_section_arrow_left");
+const petsSectionCards = document.querySelector(".pets_section_cards");
+
+btnRightSlider.addEventListener("click", function () {
+  const randomCard = Math.floor(Math.random() * 3);
+  const randomCardElement =
+    document.querySelectorAll(".pets_section_card")[randomCard];
+  petsSectionCards.appendChild(randomCardElement);
+});
+
+btnLeftSlider.addEventListener("click", function () {
+  const randomCard = Math.floor(Math.random() * 3);
+  const randomCardElement =
+    document.querySelectorAll(".pets_section_card")[randomCard];
+  petsSectionCards.appendChild(randomCardElement);
 });

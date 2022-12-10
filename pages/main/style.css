@@ -281,6 +281,8 @@ body {
   align-items: center;
   width: 1158px;
   height: 872px;
+  overflow: hidden;
+  transition: all 1s;
 }
 
 .pets_section_card {
@@ -292,6 +294,7 @@ body {
   border-radius: 5px;
   margin-bottom: 20px;
   overflow: hidden;
+  transition: all 1s;
 }
 
 .pets_section_card_img {
@@ -342,6 +345,10 @@ body {
 
 .pets_section_card_button:hover {
   background: #e47209;
+}
+
+.btn-slider {
+  border: none;
 }
 
 .pets_section_arrow_left {
