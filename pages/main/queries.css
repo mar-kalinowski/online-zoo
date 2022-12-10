@@ -279,7 +279,9 @@
     grid-template-rows: 354px 354px;
     row-gap: 92px;
     width: 940px;
-    height: 760px;
+    height: 820px;
+    padding-top: 20px;
+    overflow: hidden;
   }
 
   .pets_section_card {
@@ -289,17 +291,18 @@
     height: 354px;
     border: 1px solid #fa6f32;
     border-radius: 5px;
+    overflow: hidden;
   }
 
   .pets_section_arrow_left {
     position: absolute;
-    bottom: 580px;
+    bottom: 590px;
     transform: translate(-100px);
   }
 
   .pets_section_arrow_right {
     position: absolute;
-    bottom: 580px;
+    bottom: 590px;
     transform: translate(100px);
   }
 
@@ -677,7 +680,12 @@
     column-gap: 30;
     row-gap: 92px;
     width: 600px;
-    height: auto;
+    height: 800px;
+    overflow: hidden;
+  }
+
+  .pets_section_card {
+    overflow: hidden;
   }
 
   .card_5 {
