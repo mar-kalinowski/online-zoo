@@ -18,16 +18,16 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="logo">
-                <a class="logo_content" href="../main/index.html">
-                    <div class="logo_content_bamboo"></div>
+            <div class="logo mobile-logo">
+                <a class="logo_content mobile-logo-content" href="../main/index.html">
+                    <div class="logo_content_bamboo mobile-logo-content-bamboo"></div>
                     <h1>PetStory online</h1>
                 </a>
             </div>
             <nav class="nav">
                 <ul>
                     <li>
-                        <a href="../main/index.html">About</a>
+                        <a class="active" href="../main/index.html">About</a>
                     </li>
                     <li>
                         <a href="#">Map</a>
@@ -36,17 +36,23 @@
                         <a href="#">Zoos</a>
                     </li>
                     <li>
-                        <a class="active" href="#">Donate</a>
+                        <a href="../donate/index.html">Donate</a>
                     </li>
                     <li>
                         <a href="#">Contact us</a>
                     </li>
+                    <li class="designed_by">
+                        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+                            target="_blank">Designed
+                            by
+                            &copy</a>
+                    </li>
                 </ul>
             </nav>
-            <div class="designed_by">
-                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by
-                    &copy</a>
-            </div>
+            <button class="btn-mobile-nav">
+                <img class="icon-mobile-nav open-mobile-nav" src="../../assets/icons/burger_menu.png" alt="Menu icon">
+                <img class="icon-mobile-nav close-mobile-nav" src="../../assets/icons/active_menu.png" alt="Close icon">
+            </button>
         </header>
         <main class="main">
             <section class="panda_section"></section>
@@ -283,6 +289,7 @@
         </footer>
     </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>

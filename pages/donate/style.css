@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -108,6 +109,23 @@ body {
 
 .designed_by a:hover {
   color: #f9804b;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.close-mobile-nav {
+  display: none;
 }
 
 .panda_section {
